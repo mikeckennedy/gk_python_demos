@@ -87,3 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+.idea/encodings.xml
+.idea/gk_python_demos.iml
+.idea/misc.xml
+.idea/modules.xml
