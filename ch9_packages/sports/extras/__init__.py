@@ -1,0 +1,1 @@
+from sports.extras.celebrations import celebrate

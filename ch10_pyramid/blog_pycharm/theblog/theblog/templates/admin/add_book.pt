@@ -1,0 +1,22 @@
+<div metal:use-macro="view.layout">
+    <div metal:fill-slot="content">
+        <h1>Add book</h1>
+
+        <style>
+            form {
+                color: black;
+            }
+            input {
+                color: black;
+            }
+        </style>
+
+        <form action="" method="POST" style="color: black;">
+
+            <input class="form-control" type="text" name="title" placeholder="Book title" required /><br>
+            <input class="form-control" type="text" name="chapter_count" required placeholder="Chapter count (number)" /><br>
+            <input class="form-control" type="text" name="price" required placeholder="Price (as a float)" /><br>
+            <button type="submit" class="btn btn-success btn-lg">Create book</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,3 @@
+[run]
+source = blogapp
+omit = blogapp/test*
